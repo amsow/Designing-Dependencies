@@ -31,7 +31,7 @@ struct WeatherClient: WeatherClientProtocol {
   }
 }
 
-struct MockWeatherClient {
+struct WeatherClient {
   var weather: () -> AnyPublisher<WeatherResponse, Error>
   var searchLocations: (CLLocationCoordinate2D) -> AnyPublisher<[Location], Error>
 }
