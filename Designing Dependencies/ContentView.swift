@@ -31,17 +31,9 @@ struct WeatherClient: WeatherClientProtocol {
   }
 }
 
-struct MockWeatherClient: WeatherClientProtocol {
-  var _weather: () -> AnyPublisher<WeatherResponse, Error>
-  var _searchLocations: (CLLocationCoordinate2D) -> AnyPublisher<[Location], Error>
-  
-  func weather() -> AnyPublisher<WeatherResponse, Error> {
-    _weather()
-  }
-  
-  func searchLocations(coordinate: CLLocationCoordinate2D) -> AnyPublisher<[Location], Error> {
-    _searchLocations(coordinate)
-  }
+struct MockWeatherClient {
+  var weather: () -> AnyPublisher<WeatherResponse, Error>
+  var searchLocations: (CLLocationCoordinate2D) -> AnyPublisher<[Location], Error>
 }
 
 class AppViewModel: ObservableObject {
