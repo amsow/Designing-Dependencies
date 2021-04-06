@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 import Foundation
 import CoreLocation
+import WeatherClient
 
 let dateOfWeekFormatter: DateFormatter = {
   let formatter = DateFormatter()
@@ -83,7 +84,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView(viewModel: AppViewModel(weatherClient: .failed))
+    ContentView(viewModel: AppViewModel(weatherClient: .live))
   }
 }
 
