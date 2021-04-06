@@ -24,7 +24,7 @@ class AppViewModel: ObservableObject {
   var weatherRequestCancellable: AnyCancellable?
   let weatherClient: WeatherClient
   
-  init(isConnected: Bool = true, weatherClient: WeatherClient = .live) {
+  init(isConnected: Bool = true, weatherClient: WeatherClient) {
     self.isConnected = isConnected
     self.weatherClient = weatherClient
     self.weatherRequestCancellable = weatherClient.weather()
