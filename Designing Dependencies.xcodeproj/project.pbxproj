@@ -13,6 +13,9 @@
 		281F8B7F2614B9BB005A3408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281F8B7E2614B9BB005A3408 /* Assets.xcassets */; };
 		281F8B822614B9BC005A3408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281F8B812614B9BC005A3408 /* Preview Assets.xcassets */; };
 		281F8B852614B9BC005A3408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281F8B832614B9BC005A3408 /* LaunchScreen.storyboard */; };
+		281F8B8E2614F770005A3408 /* WeatherClientInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F8B8D2614F770005A3408 /* WeatherClientInterface.swift */; };
+		281F8B91261C95D0005A3408 /* WeatherClientLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F8B90261C95CF005A3408 /* WeatherClientLive.swift */; };
+		281F8B94261C96C3005A3408 /* WeatherClientMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F8B93261C96C3005A3408 /* WeatherClientMocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		281F8B812614B9BC005A3408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		281F8B842614B9BC005A3408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		281F8B862614B9BC005A3408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281F8B8D2614F770005A3408 /* WeatherClientInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientInterface.swift; sourceTree = "<group>"; };
+		281F8B90261C95CF005A3408 /* WeatherClientLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientLive.swift; sourceTree = "<group>"; };
+		281F8B93261C96C3005A3408 /* WeatherClientMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientMocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				281F8B782614B9BA005A3408 /* AppDelegate.swift */,
 				281F8B7A2614B9BA005A3408 /* SceneDelegate.swift */,
 				281F8B7C2614B9BA005A3408 /* ContentView.swift */,
+				281F8B8D2614F770005A3408 /* WeatherClientInterface.swift */,
+				281F8B90261C95CF005A3408 /* WeatherClientLive.swift */,
+				281F8B93261C96C3005A3408 /* WeatherClientMocks.swift */,
 				281F8B7E2614B9BB005A3408 /* Assets.xcassets */,
 				281F8B832614B9BC005A3408 /* LaunchScreen.storyboard */,
 				281F8B862614B9BC005A3408 /* Info.plist */,
@@ -148,6 +157,9 @@
 				281F8B792614B9BA005A3408 /* AppDelegate.swift in Sources */,
 				281F8B7B2614B9BA005A3408 /* SceneDelegate.swift in Sources */,
 				281F8B7D2614B9BA005A3408 /* ContentView.swift in Sources */,
+				281F8B94261C96C3005A3408 /* WeatherClientMocks.swift in Sources */,
+				281F8B91261C95D0005A3408 /* WeatherClientLive.swift in Sources */,
+				281F8B8E2614F770005A3408 /* WeatherClientInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
