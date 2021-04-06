@@ -30,6 +30,7 @@
 		281F8B8D2614F770005A3408 /* WeatherClientInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientInterface.swift; sourceTree = "<group>"; };
 		281F8B90261C95CF005A3408 /* WeatherClientLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientLive.swift; sourceTree = "<group>"; };
 		281F8B93261C96C3005A3408 /* WeatherClientMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientMocks.swift; sourceTree = "<group>"; };
+		281F8B96261CB2AE005A3408 /* WeatherClient */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WeatherClient; path = ../../WeatherClient; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		281F8B772614B9BA005A3408 /* Designing Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				281F8B96261CB2AE005A3408 /* WeatherClient */,
 				281F8B782614B9BA005A3408 /* AppDelegate.swift */,
 				281F8B7A2614B9BA005A3408 /* SceneDelegate.swift */,
 				281F8B7C2614B9BA005A3408 /* ContentView.swift */,
