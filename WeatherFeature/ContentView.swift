@@ -84,7 +84,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView(viewModel: AppViewModel(weatherClient: .live))
+    ContentView(viewModel: AppViewModel(weatherClient: .failed))
   }
 }
 
