@@ -8,6 +8,7 @@
 import UIKit
 import SwiftUI
 import WeatherClientLive
+import WeatherFeature
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

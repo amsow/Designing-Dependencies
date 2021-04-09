@@ -12,7 +12,6 @@
 		281F8B7F2614B9BB005A3408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281F8B7E2614B9BB005A3408 /* Assets.xcassets */; };
 		281F8B822614B9BC005A3408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281F8B812614B9BC005A3408 /* Preview Assets.xcassets */; };
 		281F8B852614B9BC005A3408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281F8B832614B9BC005A3408 /* LaunchScreen.storyboard */; };
-		28749956261CD26B00E02565 /* WeatherClient in Frameworks */ = {isa = PBXBuildFile; productRef = 28749955261CD26B00E02565 /* WeatherClient */; };
 		28749959261CDA0700E02565 /* WeatherClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 28749958261CDA0700E02565 /* WeatherClientLive */; };
 		2885A690262076E80002CB56 /* WeatherFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2885A687262076E80002CB56 /* WeatherFeature.framework */; };
 		2885A697262076E80002CB56 /* WeatherFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885A696262076E80002CB56 /* WeatherFeatureTests.swift */; };
@@ -86,7 +85,6 @@
 			files = (
 				28749959261CDA0700E02565 /* WeatherClientLive in Frameworks */,
 				2885A69C262076E80002CB56 /* WeatherFeature.framework in Frameworks */,
-				28749956261CD26B00E02565 /* WeatherClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +206,6 @@
 			);
 			name = "Designing Dependencies";
 			packageProductDependencies = (
-				28749955261CD26B00E02565 /* WeatherClient */,
 				28749958261CDA0700E02565 /* WeatherClientLive */,
 			);
 			productName = "Designing Dependencies";
@@ -671,10 +668,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		28749955261CD26B00E02565 /* WeatherClient */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = WeatherClient;
-		};
 		28749958261CDA0700E02565 /* WeatherClientLive */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WeatherClientLive;
